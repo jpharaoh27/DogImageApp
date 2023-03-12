@@ -7,7 +7,6 @@ import json
 # Define the API endpoint that returns the image
 API_ENDPOINT = "https://dog.ceo/api/breeds/image/random"
 
-
 class ImageApp:
     def __init__(self, master):
         self.master = master
